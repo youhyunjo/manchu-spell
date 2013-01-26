@@ -1,0 +1,12 @@
+abka/n
+niyalma/n
+bithe/n
+gisun/n
+inenngi/n
+ara/v
+gene/v
+deye/v
+taci/v
+isinji/v
+isina/
+yabu/v

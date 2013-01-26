@@ -1,0 +1,7 @@
+name mnc
+charset iso-8859-1
+affix mnc
+affix-compress true
+partially-expand true
+repl-table mnc_affix.dat
+

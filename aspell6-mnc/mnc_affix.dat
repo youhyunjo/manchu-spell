@@ -1,0 +1,68 @@
+# 
+# References
+#
+# Paul Georg von Möllendorff (1892). A Manchu Grammar with Aanalysed Texts. 
+#         [http://archive.org/details/cu31924023341112]
+#
+SET ISO8859-1
+SFX n Y 6
+SFX n 0 0 .         #
+SFX n 0 ni ng       # Genitive
+SFX n 0 i .   
+SFX n 0 be .        # Accusative
+SFX n 0 de .        # Dative/Locative
+SFX n 0 ci .        # Ablative
+
+SFX v Y 52	
+SFX v 0 0 .          # Imperative
+SFX v 0 mbi .        # Present (I write)
+SFX v 0 mbihe .      # Imperfect (I was writing)
+SFX v 0 mbihebi .    #
+SFX v 0 mbime .      # Gerend I. (whilst writing)
+SFX v 0 mbifi .      # Gerend II. (having written)
+SFX v 0 mbumbi .     # Passive (it is written)
+SFX v 0 mbubumbi .   # Causative/Passive (I cause to be written)
+SFX v 0 me .         # Infinitive (to write)
+SFX v 0 fi .         # Past Gerund (having written)
+SFX v 0 ha [aui]     # Preterite (I wrote)
+SFX v 0 he e        
+SFX v 0 ho o
+SFX v 0 habi [aui]   # Indefinite Past (I have written)
+SFX v 0 hebi e
+SFX v 0 habihe [aui] # Pluperfect (I had written)
+SFX v 0 hebihe e
+SFX v 0 habici [aui] # Past Conditional (if I had written)
+SFX v 0 hebici e
+SFX v 0 hannge [aui] #
+SFX v 0 hennge e     #
+SFX v 0 hale   [aui] #
+SFX v 0 hele   e     #
+SFX v 0 halennge   [aui] #
+SFX v 0 helennge   e     #
+SFX v 0 ra [aui]     # Future (I shall write)
+SFX v 0 re e
+SFX v 0 ro o
+SFX v 0 rannge [aui] #
+SFX v 0 rennge e     #
+SFX v 0 rale [aui]
+SFX v 0 rele e
+SFX v 0 ralennge [aui]
+SFX v 0 relennge e
+SFX v 0 lame [aui]
+SFX v 0 leme e
+SFX v 0 ci .         # Conditional (should I write)
+SFX v 0 cibe .       # Adversative (although he may write)
+SFX v 0 cina .       # Concessive (may he write)
+SFX v 0 ki .         # Subjunctive Present (may he write)
+SFX v 0 kini .       # Optative (would that he wrote)
+SFX v 0 nggala [aui] # Gerund III. (before writing)
+SFX v 0 nggele e     
+SFX v 0 nggolo o
+SFX v 0 rakv .
+SFX v 0 hakv a
+SFX v 0 hekv e
+SFX v 0 hokv o
+SFX v 0 hai a
+SFX v 0 hei e
+SFX v 0 hoi o
+SFX v 0 ralame a
