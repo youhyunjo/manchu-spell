@@ -5,64 +5,121 @@
 #         [http://archive.org/details/cu31924023341112]
 #
 SET ISO8859-1
-SFX n Y 6
-SFX n 0 0 .         #
-SFX n 0 ni ng       # Genitive
-SFX n 0 i .   
-SFX n 0 be .        # Accusative
-SFX n 0 de .        # Dative/Locative
-SFX n 0 ci .        # Ablative
+SFX N Y 6
+SFX N 0 0 .         #
+SFX N 0 ni ng       # Genitive
+SFX N 0 i .   
+SFX N 0 be .        # Accusative
+SFX N 0 de .        # Dative/Locative
+SFX N 0 ci .        # Ablative
 
-SFX v Y 52	
-SFX v 0 0 .          # Imperative
-SFX v 0 mbi .        # Present (I write)
-SFX v 0 mbihe .      # Imperfect (I was writing)
-SFX v 0 mbihebi .    #
-SFX v 0 mbime .      # Gerend I. (whilst writing)
-SFX v 0 mbifi .      # Gerend II. (having written)
-SFX v 0 mbumbi .     # Passive (it is written)
-SFX v 0 mbubumbi .   # Causative/Passive (I cause to be written)
-SFX v 0 me .         # Infinitive (to write)
-SFX v 0 fi .         # Past Gerund (having written)
-SFX v 0 ha [aui]     # Preterite (I wrote)
-SFX v 0 he e        
-SFX v 0 ho o
-SFX v 0 habi [aui]   # Indefinite Past (I have written)
-SFX v 0 hebi e
-SFX v 0 habihe [aui] # Pluperfect (I had written)
-SFX v 0 hebihe e
-SFX v 0 habici [aui] # Past Conditional (if I had written)
-SFX v 0 hebici e
-SFX v 0 hannge [aui] #
-SFX v 0 hennge e     #
-SFX v 0 hale   [aui] #
-SFX v 0 hele   e     #
-SFX v 0 halennge   [aui] #
-SFX v 0 helennge   e     #
-SFX v 0 ra [aui]     # Future (I shall write)
-SFX v 0 re e
-SFX v 0 ro o
-SFX v 0 rannge [aui] #
-SFX v 0 rennge e     #
-SFX v 0 rale [aui]
-SFX v 0 rele e
-SFX v 0 ralennge [aui]
-SFX v 0 relennge e
-SFX v 0 lame [aui]
-SFX v 0 leme e
-SFX v 0 ci .         # Conditional (should I write)
-SFX v 0 cibe .       # Adversative (although he may write)
-SFX v 0 cina .       # Concessive (may he write)
-SFX v 0 ki .         # Subjunctive Present (may he write)
-SFX v 0 kini .       # Optative (would that he wrote)
-SFX v 0 nggala [aui] # Gerund III. (before writing)
-SFX v 0 nggele e     
-SFX v 0 nggolo o
-SFX v 0 rakv .
-SFX v 0 hakv a
-SFX v 0 hekv e
-SFX v 0 hokv o
-SFX v 0 hai a
-SFX v 0 hei e
-SFX v 0 hoi o
-SFX v 0 ralame a
+SFX V Y 38
+SFX V 0 0 .          # Imperative
+SFX V 0 mbi .        # Present (I write)
+SFX V 0 mbikai .     # 
+SFX V 0 mbihe .      # Imperfect (I was writing)
+SFX V 0 mbihebi .    #
+SFX V 0 mbime .      # Gerend I. (whilst writing)
+SFX V 0 mbifi .      # Gerend II. (having written)
+SFX V 0 mbini .
+SFX V 0 mbumbi .     # Passive (it is written)
+SFX V 0 mbubumbi .   # Causative/Passive (I cause to be written)
+SFX V 0 me .         # Infinitive (to write)
+SFX V 0 ra [av]      # Future (I shall write)
+SFX V 0 re [eui]
+SFX V 0 ro o
+SFX V 0 rade [av]    # Future (I shall write)
+SFX V 0 rede [eui]
+SFX V 0 rangge [av] #
+SFX V 0 rengge [eui]  #
+SFX V 0 rongge o  #
+SFX V 0 rale [av]
+SFX V 0 rele [eui]
+SFX V 0 ralengge [av]
+SFX V 0 relengge [eui]
+SFX V 0 ralame [avi]
+SFX V 0 relame [eu]
+SFX V 0 lame [avi]
+SFX V 0 leme [eu]
+SFX V 0 ci .         # Conditional (should I write)
+SFX V 0 cibe .       # Adversative (although he may write)
+SFX V 0 cina .       # Concessive (may he write)
+SFX V 0 ki .         # Subjunctive Present (may he write)
+SFX V 0 kini .       # Optative (would that he wrote)
+SFX V 0 nggala [avi] # Gerund III. (before writing)
+SFX V 0 nggele [eu]     
+SFX V 0 nggolo o
+SFX V 0 rakv .
+SFX V 0 rakvngge [avi]
+SFX V 0 rekvngge [eu]
+
+
+SFX f Y 1
+SFX f 0 fi .         # Past Gerund (having written)
+
+SFX p Y 1
+SFX p 0 pi .         # Past Gerund (having written)
+
+SFX h Y 34
+SFX h 0 ha [auvi]     # Preterite (I wrote)
+SFX h 0 he [eu]        
+SFX h 0 ho o
+SFX h 0 hade [auvi]     # Preterite (I wrote)
+SFX h 0 hede [eu]        
+SFX h 0 hode o
+SFX h 0 habi [auvi]   # Indefinite Past (I have written)
+SFX h 0 hebi [eu]
+SFX h 0 hobi o
+SFX h 0 habikai [auvi]
+SFX h 0 hebikai [eu]
+SFX h 0 hobikai o
+SFX h 0 habihe [auvi] # Pluperfect (I had written)
+SFX h 0 hebihe [eu]
+SFX h 0 hobihe o
+SFX h 0 habici [auvi] # Past Conditional (if I had written)
+SFX h 0 hebici [eu]
+SFX h 0 hobici o
+SFX h 0 hangge [auvi] #
+SFX h 0 hengge [eu]  #
+SFX h 0 hongge [eu]  #
+SFX h 0 hale   [auvi] #
+SFX h 0 hele   [eu]   #
+SFX h 0 halengge   [auvi] #
+SFX h 0 helengge   [eu]  #
+SFX h 0 hakv [auvi]
+SFX h 0 hekv [eu]
+SFX h 0 hokv o
+SFX h 0 hakvbi [auvi]
+SFX h 0 hekvbi [eu]
+SFX h 0 hokvbi o
+
+SFX h 0 hai [auvi]
+SFX h 0 hei [eu]
+SFX h 0 hoi o
+
+SFX k Y 25
+SFX k 0 ka [auvi]     # Preterite (I wrote)
+SFX k 0 ke [eu]        
+SFX k 0 ko o
+SFX k 0 kabi [auvi]   # Indefinite Past (I have written)
+SFX k 0 kebi [eu]
+SFX k 0 kobi o
+SFX k 0 kabihe [auvi] # Pluperfect (I had written)
+SFX k 0 kebihe [eu]
+SFX k 0 kobihe o
+SFX k 0 kabici [auvi] # Past Conditional (if I had written)
+SFX k 0 kebici [eu]
+SFX k 0 kobici o
+SFX k 0 kangge [auvi] #
+SFX k 0 kengge [eu]  #
+SFX k 0 kongge [eu]  #
+SFX k 0 kale   [auvi] #
+SFX k 0 kele   [eu]   #
+SFX k 0 kalengge   [auvi] #
+SFX k 0 kelengge   [eu]  #
+SFX k 0 kakv [auvi]
+SFX k 0 kekv [eu]
+SFX k 0 kokv o
+SFX k 0 kai [auvi]
+SFX k 0 kei [eu]
+SFX k 0 koi o
