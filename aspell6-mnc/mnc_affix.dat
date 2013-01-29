@@ -4,7 +4,7 @@
 # Paul Georg von Möllendorff (1892). A Manchu Grammar with Aanalysed Texts. 
 #         [http://archive.org/details/cu31924023341112]
 #
-SET ISO8859-1
+SET	UTF-8
 SFX N Y 6
 SFX N 0 0 .         #
 SFX N 0 ni ng       # Genitive

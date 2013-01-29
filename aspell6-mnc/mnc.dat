@@ -1,7 +1,9 @@
 name mnc
 charset iso-8859-1
+data-encoding utf-8
 affix mnc
 affix-compress true
 partially-expand true
 repl-table mnc_affix.dat
+special ' -**
 
