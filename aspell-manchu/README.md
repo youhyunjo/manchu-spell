@@ -5,4 +5,10 @@ How to build the dictionary package for distribution:
 
     $ ./proc
     $ ./configure
-    $ ./make dist
+    $ make dist
+
+How to install:
+
+    $ ./proc
+    $ ./configure
+    $ sudo make install
