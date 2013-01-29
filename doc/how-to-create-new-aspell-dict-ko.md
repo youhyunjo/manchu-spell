@@ -97,7 +97,7 @@ aspell에서 말하는 문자 세트와 인코딩은 다른 것이다. aspell은
 이제 `mnc` 디렉토리에는 다음과 같은 파일들이 존재하는 상태가 되었다.
 
     $ ls
-    Copyright  info       l-mnc.cmap l-mnc.cset misc       mnc.dat    mnc.wl     proc 
+    Copyright  info       mnc.dat    mnc.wl     proc 
 
 여기서 `info`와 `LANG.dat`에 해당 사전에 대한 정보를 넣어주어야 한다.
 `LANG.wl`은 단어 목록(word list)인데 이에 대해서는 다음 섹션에서 설명하겠다.
