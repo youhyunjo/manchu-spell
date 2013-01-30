@@ -1,0 +1,11 @@
+COPYING
+Makefile
+Makefile.pre
+README
+configure
+*.cmap
+*.cset
+*.alias
+*.cwl
+*.multi
+*.rws
