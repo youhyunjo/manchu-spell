@@ -10,6 +10,10 @@ SFX N 0 de .
 SFX N 0 ci .
 SFX N 0 ingge .
 
+# passive-causative -bu
+SFX B Y 1
+SFX B 0 bu/V .
+
 # Verbal -me|ci|ki suffixes
 SFX V Y 24
 SFX V 0 0 .
@@ -58,68 +62,53 @@ SFX m 0 mpi .
 
 
 # Suffixes after r[aeo]|ndara|ndere|ndoro form
-SFX R Y 4
+SFX R Y 23
 SFX R 0 de .
-SFX R 0 lame .
+SFX R 0 lame a
+SFX R 0 leme e
+SFX R 0 lome o
 SFX R 0 le .
 SFX R 0 ngge .
-
-
-
+SFX R 0 lengge .
+SFX R 0 o .
+SFX R a akv a
+SFX R e akv e
+SFX R o akv o
+SFX R a akvn a
+SFX R e akvn e
+SFX R o akvn o
+SFX R a akvni a
+SFX R e akvni e
+SFX R o akvni o
+SFX R a akvci a
+SFX R e akvci e
+SFX R o akvci o
+SFX R a akvngge a
+SFX R e akvngge e
+SFX R o akvngge o
 
 # Verbal -ra|re|ro suffixes
-SFX r Y 21
-SFX r 0 ra a
-SFX r 0 rade a
-SFX r 0 rakv .
-SFX r 0 rakvngge .
-SFX r 0 ralame a
-SFX r 0 rale a
-SFX r 0 ralengge a
-SFX r 0 rangge a
-SFX r 0 re e
-SFX r 0 rede [eui]
-SFX r 0 rekvngge e
-SFX r 0 relame e
-SFX r 0 rele e
-SFX r 0 releme e
-SFX r 0 relengge e
-SFX r 0 rengge e
-SFX r 0 ro o
-SFX r 0 rolame e
-SFX r 0 role o
-SFX r 0 rolome e
-SFX r 0 rongge o
-
-
+SFX r Y 7
+SFX r 0 ra/R a
+SFX r 0 re/R e
+SFX r 0 ro/R o
+SFX r 0 ra/R [aovi][^aeiouv][uvi]
+SFX r 0 ra/R [aovi][^aeiouv][^aeiouv][uvi]
+SFX r 0 re/R [eu][^aeiouv][uvi]
+SFX r 0 re/R [eu][^aeiouv][^aeiouv][uvi]
 
 # Verbal -ndara|ndere|ndoro suffixes
-SFX n Y 21
-SFX n 0 ndara a
-SFX n 0 ndarade a
-SFX n 0 ndarakv .
-SFX n 0 ndarakvngge .
-SFX n 0 ndaralame a
-SFX n 0 ndarale a
-SFX n 0 ndaralengge a
-SFX n 0 ndarangge a
-SFX n 0 ndere e
-SFX n 0 nderede [eui]
-SFX n 0 nderekvngge e
-SFX n 0 ndereleme e
-SFX n 0 nderelame e
-SFX n 0 nderele e
-SFX n 0 nderelengge e
-SFX n 0 nderengge e
-SFX n 0 ndoro o
-SFX n 0 ndorole o
-SFX n 0 ndorolome o
-SFX n 0 ndoroleme o
-SFX n 0 ndorongge o
-
+SFX n Y 7
+SFX n 0 ndara/R a
+SFX n 0 ndere/R e
+SFX n 0 ndoro/R o
+SFX n 0 ndara/R [aovi][^aeiouv][uvi]
+SFX n 0 ndara/R [aovi][^aeiouv][^aeiouv][uvi]
+SFX n 0 ndere/R [eu][^aeiouv][uvi]
+SFX n 0 ndere/R [eu][^aeiouv][^aeiouv][uvi]
 
 # Suffixes after (h|k|ngk)[aeo] form
-SFX H Y 11
+SFX H Y 14
 SFX H 0 bi .
 SFX H 0 bici .
 SFX H 0 bihe .
@@ -127,103 +116,40 @@ SFX H 0 bikai .
 SFX H 0 de .
 SFX H 0 i .
 SFX H 0 kv .
+SFX H 0 kvn .
+SFX H 0 kvni .
 SFX H 0 kvbi .	
 SFX H 0 le .
 SFX H 0 lengge .
 SFX H 0 ngge .
-
-
+SFX H 0 o .
 
 # Verb -h[aeo] form
-SFX h Y 34
-SFX h 0 ha [auvi]
-SFX h 0 he [eui]        
-SFX h 0 ho o
-SFX h 0 hade [auvi]
-SFX h 0 hede [eu]
-SFX h 0 hode o
-SFX h 0 habi [auvi]
-SFX h 0 hebi [eu]
-SFX h 0 hobi o
-SFX h 0 habikai [auvi]
-SFX h 0 hebikai [eu]
-SFX h 0 hobikai o
-SFX h 0 habihe [auvi]
-SFX h 0 hebihe [eu]
-SFX h 0 hobihe o
-SFX h 0 habici [auvi]
-SFX h 0 hebici [eu]
-SFX h 0 hobici o
-SFX h 0 hangge [auvi]
-SFX h 0 hengge [eu]
-SFX h 0 hongge [eu]
-SFX h 0 hale   [auvi]
-SFX h 0 hele   [eu]
-SFX h 0 halengge   [auvi]
-SFX h 0 helengge   [eu]
-SFX h 0 hakv [auvi]
-SFX h 0 hekv [eu]
-SFX h 0 hokv o
-SFX h 0 hakvbi [auvi]
-SFX h 0 hekvbi [eu]
-SFX h 0 hokvbi o
-SFX h 0 hai [auvi]
-SFX h 0 hei [eu]
-SFX h 0 hoi o
+SFX h Y 7
+SFX h 0 ha/H a
+SFX h 0 he/H e
+SFX h 0 ho/H o
+SFX h 0 ha/H [aovi][^aeiouv][uvi]
+SFX h 0 ha/H [aovi][^aeiouv][^aeiouv][uvi]
+SFX h 0 he/H [eu][^aeiouv][uvi]
+SFX h 0 he/H [eu][^aeiouv][^aeiouv][uvi]
 
 # Verb -k[aeo] form
-SFX k Y 25
-SFX k 0 ka [auvi]
-SFX k 0 ke [eui]        
-SFX k 0 ko o
-SFX k 0 kabi [auvi]
-SFX k 0 kebi [eu]
-SFX k 0 kobi o
-SFX k 0 kabihe [auvi]
-SFX k 0 kebihe [eu]
-SFX k 0 kobihe o
-SFX k 0 kabici [auvi]
-SFX k 0 kebici [eu]
-SFX k 0 kobici o
-SFX k 0 kangge [auvi]
-SFX k 0 kengge [eu]
-SFX k 0 kongge [eu]
-SFX k 0 kale   [auvi]
-SFX k 0 kele   [eu]
-SFX k 0 kalengge   [auvi]
-SFX k 0 kelengge   [eu]
-SFX k 0 kakv [auvi]
-SFX k 0 kekv [eu]
-SFX k 0 kokv o
-SFX k 0 kai [auvi]
-SFX k 0 kei [eu]
-SFX k 0 koi o
-
+SFX k Y 7
+SFX k 0 ka/H a
+SFX k 0 ke/H e
+SFX k 0 ko/H o
+SFX k 0 ka/H [aovi][^aeiouv][uvi]
+SFX k 0 ka/H [aovi][^aeiouv][^aeiouv][uvi]
+SFX k 0 ke/H [eu][^aeiouv][uvi]
+SFX k 0 ke/H [eu][^aeiouv][^aeiouv][uvi]
 
 # Verb -ngk[aeo] form
-SFX g Y 25
-SFX g 0 ngka [auvi]
-SFX g 0 ngke [eu]        
-SFX g 0 ngko o
-SFX g 0 ngkabi [auvi]
-SFX g 0 ngkebi [eu]
-SFX g 0 ngkobi o
-SFX g 0 ngkabihe [auvi]
-SFX g 0 ngkebihe [eu]
-SFX g 0 ngkobihe o
-SFX g 0 ngkabici [auvi]
-SFX g 0 ngkebici [eu]
-SFX g 0 ngkobici o
-SFX g 0 ngkangge [auvi]
-SFX g 0 ngkengge [eu]
-SFX g 0 ngkongge [eu]
-SFX g 0 ngkale   [auvi]
-SFX g 0 ngkele   [eu]
-SFX g 0 ngkalengge   [auvi]
-SFX g 0 ngkelengge   [eu]
-SFX g 0 ngkakv [auvi]
-SFX g 0 ngkekv [eu]
-SFX g 0 ngkokv o
-SFX g 0 ngkai [auvi]
-SFX g 0 ngkei [eu]
-SFX g 0 ngkoi o
+SFX g Y 7
+SFX g 0 ngka/H a
+SFX g 0 ngke/H e
+SFX g 0 ngko/H o
+SFX g 0 ngka/H [aovi][^aeiouv][uvi]
+SFX g 0 ngka/H [aovi][^aeiouv][^aeiouv][uvi]
+SFX g 0 ngke/H [eu][^aeiouv][uvi]
+SFX g 0 ngke/H [eu][^aeiouv][^aeiouv][uvi]
