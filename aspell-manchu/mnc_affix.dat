@@ -5,6 +5,8 @@
 #         [http://archive.org/details/cu31924023341112]
 #
 SET	UTF-8
+
+# Noun Case
 SFX N Y 6
 SFX N 0 0 .         #
 SFX N 0 ni ng       # Genitive
@@ -13,7 +15,20 @@ SFX N 0 be .        # Accusative
 SFX N 0 de .        # Dative/Locative
 SFX N 0 ci .        # Ablative
 
-SFX V Y 38
+# Noun plural
+SFX s Y 4
+SFX s 0 sa [avui]
+SFX s n sa n
+SFX s 0 se [eu]
+SFX s 0 so o
+
+SFX t Y 2
+SFX t 0 ta [au]
+SFX t 0 te [eu]
+
+
+# Verb
+SFX V Y 39
 SFX V 0 0 .          # Imperative
 SFX V 0 mbi .        # Present (I write)
 SFX V 0 mbikai .     # 
@@ -25,6 +40,7 @@ SFX V 0 mbini .
 SFX V 0 mbumbi .     # Passive (it is written)
 SFX V 0 mbubumbi .   # Causative/Passive (I cause to be written)
 SFX V 0 me .         # Infinitive (to write)
+SFX V 0 meo .         # Infinitive (to write)
 SFX V 0 ra [av]      # Future (I shall write)
 SFX V 0 re [eui]
 SFX V 0 ro o
@@ -53,16 +69,18 @@ SFX V 0 rakv .
 SFX V 0 rakvngge [avi]
 SFX V 0 rekvngge [eu]
 
-
+# Verb -fi form
 SFX f Y 1
 SFX f 0 fi .         # Past Gerund (having written)
 
+# Verb -pi form
 SFX p Y 1
 SFX p 0 pi .         # Past Gerund (having written)
 
+# Verb -h[aeo] form
 SFX h Y 34
 SFX h 0 ha [auvi]     # Preterite (I wrote)
-SFX h 0 he [eu]        
+SFX h 0 he [eui]        
 SFX h 0 ho o
 SFX h 0 hade [auvi]     # Preterite (I wrote)
 SFX h 0 hede [eu]        
@@ -92,11 +110,11 @@ SFX h 0 hokv o
 SFX h 0 hakvbi [auvi]
 SFX h 0 hekvbi [eu]
 SFX h 0 hokvbi o
-
 SFX h 0 hai [auvi]
 SFX h 0 hei [eu]
 SFX h 0 hoi o
 
+# Verb -k[aeo] form
 SFX k Y 25
 SFX k 0 ka [auvi]     # Preterite (I wrote)
 SFX k 0 ke [eu]        

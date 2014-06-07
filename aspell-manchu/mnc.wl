@@ -231,6 +231,7 @@ aisingga
 aisirgan
 aisiri
 aisuri
+aitu/Vfh
 aitubu/Vfh
 aituhabi
 aituri
@@ -338,7 +339,7 @@ alcuka
 alda
 aldahi
 aldakv
-aldangga
+aldangga/N
 aldasi
 aldasila/Vfh
 aldungga
@@ -653,7 +654,7 @@ ayari
 ayoo
 ba
 ba/Vfh
-baba
+baba/N
 babe
 babi
 babuhan
@@ -1086,7 +1087,9 @@ bisari
 bisi
 bisin
 bisire
+bisirele
 bisiren
+bisirengge
 bisu
 bita
 bitele
@@ -1503,7 +1506,7 @@ buthai
 buthaxa/Vfh
 buthaxabu/Vfh
 buthaxara
-butu
+butu/N
 butu/Vfh
 butuha
 butule/Vfh
@@ -1629,7 +1632,7 @@ car
 cara
 caranahabi
 carcinahabi
-cargi
+cargi/N
 cargilakv
 carki
 carki/Vfh
@@ -1734,7 +1737,7 @@ cihala/Vfh
 cihalan
 cihalxa/Vfh
 cihan
-cihangga
+cihangga/N
 cihe
 cihetei
 cik
@@ -2228,6 +2231,7 @@ dasan
 dasara
 dasargan
 dasata/Vfh
+dasatabu/Vfh
 dashvwan
 dasi
 dasi/Vfh
@@ -2552,7 +2556,7 @@ dooli
 doora/Vfh
 dooran
 doorin
-doose
+doose/N
 dooseda
 doosi
 doosida/Vfh
@@ -2561,7 +2565,7 @@ doosidarakv
 dorakvla/Vfh
 doran
 dordon
-dorgi
+dorgi/N
 dorgici
 dorgideri
 dorgoloho
@@ -2605,7 +2609,7 @@ dotori
 doyoljo/Vfh
 doyonggo
 du
-dube
+dube/N
 dubehe
 dubeheri
 dubei
@@ -2999,7 +3003,7 @@ eluri
 embici
 emde
 emdubei
-eme
+eme/N
 emeke
 emekei
 emembihede
@@ -3070,7 +3074,7 @@ engki
 enihen
 enihun
 enirhen
-eniye
+eniye/N
 eniyehen
 eniyehenenihen
 eniyen
@@ -3083,7 +3087,7 @@ entekengge
 erde
 erdeken
 erdelehe
-erdemu
+erdemu/N
 erdemungge
 ere/N
 ere/Vfh
@@ -3131,7 +3135,7 @@ eriku
 erileme
 erilere
 erimbu
-erin
+erin/N
 erindari
 eringge
 eritun
@@ -3320,7 +3324,7 @@ falan
 falangga
 falanggv
 falasu
-falga
+falga/N
 falgangga
 falgari
 falha
@@ -5003,7 +5007,7 @@ gvlgirakv
 gvlha
 gvlhi
 gvli
-gvli/Vfh
+gvli/Vfk
 gvlibu/Vfh
 gvlin
 gvlja/Vfh
@@ -5226,6 +5230,7 @@ hairacuka
 hairacun
 hairakan
 hairan
+hairanda/Vfh
 haisanda
 haita
 hajan
@@ -5444,7 +5449,7 @@ hefeli
 hefeliye/Vfh
 hefeliyebu/Vfh
 hefeliyene/Vfh
-hehe
+hehe/N
 hehereku
 hehereme
 heheri
@@ -5606,7 +5611,7 @@ hinggir
 hinggirhanggir
 hingke
 hingneci
-hio
+hio/N
 hionghioi
 hir
 hira/Vfh
@@ -5928,7 +5933,7 @@ huthe
 huthenehebi
 huthu/Vfh
 huthubu/Vfh
-hutu
+hutu/N
 hutungge
 huweje/Vfh
 huwejebu/Vfh
@@ -6113,6 +6118,7 @@ hvwangdi
 hvwangga
 hvwanggar
 hvwanggiyan
+hvwanggiya/Vfh
 hvwanggiyarakv
 hvwangheo
 hvwanta
@@ -6130,7 +6136,7 @@ hvwaxabu/Vfh
 hvwaxabure
 hvwaxada
 hvwaxahabi
-hvwaxan
+hvwaxan/Ns
 hvxa
 hvxahv
 hvxaju
@@ -6337,7 +6343,7 @@ iliha
 ilihabi
 ilihangga
 ilihen
-ilimbaha
+ilimbaha/V
 ilimbahabu/Vfh
 ilin
 ilina/Vfh
@@ -6659,7 +6665,7 @@ jalin
 jalingga
 jalmin
 jalu
-jalu/Vfk
+jalu/Vpk
 jalukiya
 jalukiya/Vfh
 jalukiyabu/Vfh
@@ -6846,6 +6852,8 @@ jihana
 jihana/Vfh
 jihari
 jihe
+jihekv
+jidere
 jihede
 jijirgan
 jijiri
@@ -8674,6 +8682,7 @@ mokco/Vfh
 moko
 mokso
 moksolo/Vfh
+moksolobu/Vfh
 mokto
 molho
 moli
@@ -8949,6 +8958,7 @@ nakabu/Vfh
 nakaha
 nakcu
 nakcuta
+nakv
 nama
 namala/Vfh
 namalabu/Vfh
@@ -9025,6 +9035,7 @@ necintu
 nege
 negele/Vfh
 nehebi
+nehv
 nei
 nei/Vfh
 neibu/Vfh
@@ -9128,6 +9139,7 @@ nikehebi
 nikeku
 nikekungge
 niken
+nikene/Vfh
 nikendu/Vfh
 nikexe/Vfh
 niksi/Vfh
@@ -9474,7 +9486,7 @@ nungneri
 nunjibu/Vfh
 nunu
 nuran
-nure
+nure/N
 nurhv/Vfh
 nushu/Vfh
 nuturu
@@ -10363,7 +10375,7 @@ sidehule/Vfh
 sidehulebu/Vfh
 sidehun
 sidehunje/Vfh
-siden
+siden/N
 sidengge
 sidere/Vfh
 siderebu/Vfh
@@ -10541,6 +10553,7 @@ sirakv
 sirame
 siramsi
 siran
+sirandu/Vfh
 siranduhai
 sirara
 sirasha
@@ -10697,7 +10710,7 @@ songgobu/Vfh
 songgoco/Vfh
 songgome
 songgotu
-songko
+songko/N
 songkolo/Vfh
 songkolobu/Vfh
 songkoloro
@@ -10887,7 +10900,7 @@ suksure/Vfh
 suksurekebi
 suksureku
 suku
-sukv
+sukv/N
 sukvngge
 sula
 sula/Vfh
@@ -11132,6 +11145,7 @@ takdaka
 takintu
 takitu
 takiya
+taksi/Vfh
 taksiburakv
 takta
 taktan
@@ -11676,6 +11690,7 @@ tucibun
 tuciburakv
 tucibure
 tucike
+tucikekv
 tucin
 tucine
 tucire
@@ -12725,7 +12740,7 @@ xa/Vfh
 xab
 xaban
 xabargan
-xabi
+xabi/Ns
 xabjunio
 xabtun
 xabtungga
