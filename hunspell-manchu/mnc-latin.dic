@@ -1,4 +1,4 @@
-13504
+13511
 a
 aba/N
 abai
@@ -59,13 +59,14 @@ acanjime
 acanjire
 acanu/Vrlfh
 acarakv
+aci/Vrlfh
 aci/Vrlfk
 acibu/Vrlfh
-aciha
+aciha/H
 acihi
 acihila/Vrlfh
 acihilabu/Vrlfh
-acika
+acika/H
 acila/Vrlfh
 acin
 acindu/Vrlfh
@@ -654,7 +655,7 @@ ayara
 ayari
 ayoo
 ba
-ba/Vrlfh
+ba/Vrlfg
 baba/N
 babe
 babi
@@ -1142,7 +1143,7 @@ biyor
 biyoran
 biyorong
 biyorung
-bo/Vrlfh
+bo/Vrlfg
 boborxo/Vrlfh
 boceri
 bocihe
@@ -1538,7 +1539,7 @@ buyeri
 buyerxe/Vrlfh
 bvrtu
 ca
-ca/Vrlfh
+ca/Vrlfgh
 cab
 cabdara
 cabgan
@@ -2434,7 +2435,8 @@ derhi
 derhuwe
 deri
 deri/Vrlfh
-deribu/Vrlfh
+deribu/Vrlf
+deribuhe/H
 deribume
 deribun
 deribure
@@ -3843,6 +3845,7 @@ foyori
 foyoro
 fu
 fu/Vrlfh
+fu/Vrlfg
 fubihvn
 fubise
 fubu/Vrlfh
@@ -4374,7 +4377,7 @@ gencehen
 gencehengge
 gencehexe/Vrlfh
 gene
-gene/Vrlfh
+gene/BVrlfh
 genehe
 gengge
 genggece/Vrlfh
@@ -4955,7 +4958,7 @@ guwanni
 guwasa/Vrlfk
 guwase
 guwatala/Vrlfh
-guwe/Vrlfh
+guwe/Vnlfg
 guwebu/Vrlfh
 guwebuhen
 guwebure
@@ -6739,7 +6742,7 @@ jaya/Vrlfh
 jayabu/Vrlfh
 jayan
 je
-je/Vrlfh
+je/Vnlmg
 jebele
 jebkele
 jebsehe
@@ -6935,7 +6938,7 @@ jiyei
 jiyeijalasu
 jiyoo
 jo
-jo/Vrlfh
+jo/Vnlmg
 jobo/Vrlfh
 jobobu/Vrlfh
 jobocuka
@@ -7198,7 +7201,7 @@ jutoksin
 jutuhan
 jutungga
 juturi
-juwa
+juwa/Vrlmg
 juwabu/Vrlfh
 juwajiri
 juwali
@@ -9816,6 +9819,7 @@ putu
 putur
 sa
 sa/Vrlfh
+sa/Vrlfg
 saba
 sabara/Vrlfh
 sabcira/Vrlfh
@@ -10092,6 +10096,7 @@ sati
 saya
 se
 se/Vrlfh
+se/Vrlfg
 sebcele/Vrlfh
 sebdekebi
 sebden
@@ -10772,6 +10777,7 @@ soyonsoyon
 soyori
 su
 su/Vrlfh
+su/Vrlmg
 subada/Vrlfh
 subarhan
 subari
@@ -12607,8 +12613,8 @@ wasihala/Vrlfh
 wasihalabu/Vrlfh
 wasihaxa/Vrlfh
 wasihvn
-wasika
-wasikabi
+wasika st:wasi is:ka
+wasikabi is:kabi
 wasimbu/Vrlfh
 wasimbumbiwasibu/Vrlfh
 wasingga
@@ -12621,7 +12627,7 @@ waxa/Vrlfh
 waxakta
 waxakv
 we
-we/Vrlfh
+we/Vrnlmg
 webe
 wece/Vrlfh
 weceku
@@ -12719,7 +12725,7 @@ weribu/Vrlfh
 weringge
 werukebi
 werwen
-wesi/Vrlfh
+wesi/Vrlfk
 wesibu/Vrlfh
 wesibume
 wesibun
@@ -13484,7 +13490,7 @@ yoto
 yoyo
 yoyohobi
 yoyokobi
-yu/Vrlfh
+yu/Vnlpmg
 yuburxe/Vrlfh
 yumbu
 yumbu/Vrlfh
