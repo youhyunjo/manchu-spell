@@ -1,63 +1,138 @@
 SET	UTF-8
 
-# Noun Case
-SFX N Y 6
+# Nominal suffixes
+SFX N Y 7
 SFX N 0 0 .
 SFX N 0 ni ng
 SFX N 0 i .
 SFX N 0 be .
 SFX N 0 de .
 SFX N 0 ci .
+SFX N 0 ingge .
 
-# Verb
-SFX V Y 39
+# Verbal -me|ci|ki suffixes
+SFX V Y 24
 SFX V 0 0 .
 SFX V 0 mbi .
-SFX V 0 mbikai .
+SFX V 0 mbidere
 SFX V 0 mbihe .
 SFX V 0 mbihebi .
+SFX V 0 mbihede .
+SFX V 0 mbihekai .
+SFX V 0 mbihengge .
+SFX V 0 mbiheni .
+SFX V 0 mbiheo .
+SFX V 0 mbikai .
 SFX V 0 mbime .
-SFX V 0 mbifi .
+SFX V 0 mbina .
 SFX V 0 mbini .
-SFX V 0 mbumbi .
-SFX V 0 mbubumbi .
-SFX V 0 me .
-SFX V 0 meo .
-SFX V 0 ra [av]
-SFX V 0 re [eui]
-SFX V 0 ro o
-SFX V 0 rade [av]
-SFX V 0 rede [eui]
-SFX V 0 rangge [av]
-SFX V 0 rengge [eui]
-SFX V 0 rongge o
-SFX V 0 rale [av]
-SFX V 0 rele [eui]
-SFX V 0 ralengge [av]
-SFX V 0 relengge [eui]
-SFX V 0 ralame [avi]
-SFX V 0 relame [eu]
-SFX V 0 lame [avi]
-SFX V 0 leme [eu]
+SFX V 0 mbinikai .
+SFX V 0 mbinio .
+SFX V 0 mbio .
 SFX V 0 ci .
 SFX V 0 cibe .
 SFX V 0 cina .
 SFX V 0 ki .
 SFX V 0 kini .
-SFX V 0 nggala [avi]
-SFX V 0 nggele [eu]
-SFX V 0 nggolo o
-SFX V 0 rakv .
-SFX V 0 rakvngge [avi]
-SFX V 0 rekvngge [eu]
+SFX V 0 me .
+SFX V 0 meo .
 
-# Verb -fi form
+# Verbal -nggala|nggele|nggolo form
+SFX l Y 3
+SFX l 0 nggala a
+SFX l 0 nggele e
+SFX l 0 nggolo o
+
+
+# Verbal -fi form
 SFX f Y 1
 SFX f 0 fi .
 
-# Verb -pi form
+# Verbal -pi form
 SFX p Y 1
 SFX p 0 pi .
+
+# Verbal -mpi form
+SFX m Y 1
+SFX m 0 mpi .
+
+
+# Suffixes after r[aeo]|ndara|ndere|ndoro form
+SFX R Y 4
+SFX R 0 de .
+SFX R 0 lame .
+SFX R 0 le .
+SFX R 0 ngge .
+
+
+
+
+# Verbal -ra|re|ro suffixes
+SFX r Y 21
+SFX r 0 ra a
+SFX r 0 rade a
+SFX r 0 rakv .
+SFX r 0 rakvngge .
+SFX r 0 ralame a
+SFX r 0 rale a
+SFX r 0 ralengge a
+SFX r 0 rangge a
+SFX r 0 re e
+SFX r 0 rede [eui]
+SFX r 0 rekvngge e
+SFX r 0 relame e
+SFX r 0 rele e
+SFX r 0 releme e
+SFX r 0 relengge e
+SFX r 0 rengge e
+SFX r 0 ro o
+SFX r 0 rolame e
+SFX r 0 role o
+SFX r 0 rolome e
+SFX r 0 rongge o
+
+
+
+# Verbal -ndara|ndere|ndoro suffixes
+SFX n Y 21
+SFX n 0 ndara a
+SFX n 0 ndarade a
+SFX n 0 ndarakv .
+SFX n 0 ndarakvngge .
+SFX n 0 ndaralame a
+SFX n 0 ndarale a
+SFX n 0 ndaralengge a
+SFX n 0 ndarangge a
+SFX n 0 ndere e
+SFX n 0 nderede [eui]
+SFX n 0 nderekvngge e
+SFX n 0 ndereleme e
+SFX n 0 nderelame e
+SFX n 0 nderele e
+SFX n 0 nderelengge e
+SFX n 0 nderengge e
+SFX n 0 ndoro o
+SFX n 0 ndorole o
+SFX n 0 ndorolome o
+SFX n 0 ndoroleme o
+SFX n 0 ndorongge o
+
+
+# Suffixes after (h|k|ngk)[aeo] form
+SFX H Y 11
+SFX H 0 bi .
+SFX H 0 bici .
+SFX H 0 bihe .
+SFX H 0 bikai .
+SFX H 0 de .
+SFX H 0 i .
+SFX H 0 kv .
+SFX H 0 kvbi .	
+SFX H 0 le .
+SFX H 0 lengge .
+SFX H 0 ngge .
+
+
 
 # Verb -h[aeo] form
 SFX h Y 34
@@ -99,7 +174,7 @@ SFX h 0 hoi o
 # Verb -k[aeo] form
 SFX k Y 25
 SFX k 0 ka [auvi]
-SFX k 0 ke [eu]        
+SFX k 0 ke [eui]        
 SFX k 0 ko o
 SFX k 0 kabi [auvi]
 SFX k 0 kebi [eu]
@@ -123,3 +198,32 @@ SFX k 0 kokv o
 SFX k 0 kai [auvi]
 SFX k 0 kei [eu]
 SFX k 0 koi o
+
+
+# Verb -ngk[aeo] form
+SFX g Y 25
+SFX g 0 ngka [auvi]
+SFX g 0 ngke [eu]        
+SFX g 0 ngko o
+SFX g 0 ngkabi [auvi]
+SFX g 0 ngkebi [eu]
+SFX g 0 ngkobi o
+SFX g 0 ngkabihe [auvi]
+SFX g 0 ngkebihe [eu]
+SFX g 0 ngkobihe o
+SFX g 0 ngkabici [auvi]
+SFX g 0 ngkebici [eu]
+SFX g 0 ngkobici o
+SFX g 0 ngkangge [auvi]
+SFX g 0 ngkengge [eu]
+SFX g 0 ngkongge [eu]
+SFX g 0 ngkale   [auvi]
+SFX g 0 ngkele   [eu]
+SFX g 0 ngkalengge   [auvi]
+SFX g 0 ngkelengge   [eu]
+SFX g 0 ngkakv [auvi]
+SFX g 0 ngkekv [eu]
+SFX g 0 ngkokv o
+SFX g 0 ngkai [auvi]
+SFX g 0 ngkei [eu]
+SFX g 0 ngkoi o
