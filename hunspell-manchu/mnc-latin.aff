@@ -1,18 +1,17 @@
 SET	UTF-8
 
 # Nominal suffixes
-SFX N Y 7
-SFX N 0 0 .
-SFX N 0 ni ng
-SFX N 0 i .
-SFX N 0 be .
-SFX N 0 de .
-SFX N 0 ci .
-SFX N 0 ingge .
+SFX N Y 6
+SFX N 0 ni ng is:I
+SFX N 0 i . is:I
+SFX N 0 be . is:BE
+SFX N 0 de . is:DE
+SFX N 0 ci . is:CI
+SFX N 0 ingge . is:INGGE
 
 # passive-causative -bu
 SFX B Y 1
-SFX B 0 bu/V .
+SFX B 0 bu/V . ds:BU
 
 # Verbal -me|ci|ki suffixes
 SFX V Y 24
@@ -50,20 +49,20 @@ SFX l 0 nggolo o
 
 # Verbal -fi form
 SFX f Y 1
-SFX f 0 fi .
+SFX f 0 fi . is:FI
 
 # Verbal -pi form
 SFX p Y 1
-SFX p 0 pi .
+SFX p 0 pi . is:FI
 
 # Verbal -mpi form
 SFX m Y 1
-SFX m 0 mpi .
+SFX m 0 mpi . is:FI
 
 
 # Suffixes after r[aeo]|ndara|ndere|ndoro form
 SFX R Y 23
-SFX R 0 de .
+SFX R 0 de . 
 SFX R 0 lame a
 SFX R 0 leme e
 SFX R 0 lome o
@@ -71,41 +70,41 @@ SFX R 0 le .
 SFX R 0 ngge .
 SFX R 0 lengge .
 SFX R 0 o .
-SFX R a akv a
-SFX R e akv e
-SFX R o akv o
-SFX R a akvn a
-SFX R e akvn e
-SFX R o akvn o
-SFX R a akvni a
-SFX R e akvni e
-SFX R o akvni o
-SFX R a akvci a
-SFX R e akvci e
-SFX R o akvci o
-SFX R a akvngge a
-SFX R e akvngge e
-SFX R o akvngge o
+SFX R a akv a +NEG
+SFX R e akv e +NEG
+SFX R o akv o +NEG
+SFX R a akvn a +NEG
+SFX R e akvn e +NEG
+SFX R o akvn o +NEG
+SFX R a akvni a +NEG
+SFX R e akvni e +NEG
+SFX R o akvni o +NEG
+SFX R a akvci a +NEG
+SFX R e akvci e +NEG
+SFX R o akvci o +NEG
+SFX R a akvngge a +NEG
+SFX R e akvngge e +NEG
+SFX R o akvngge o +NEG
 
 # Verbal -ra|re|ro suffixes
 SFX r Y 7
-SFX r 0 ra/R a
-SFX r 0 re/R e
-SFX r 0 ro/R o
-SFX r 0 ra/R [aovi][^aeiouv][uvi]
-SFX r 0 ra/R [aovi][^aeiouv][^aeiouv][uvi]
-SFX r 0 re/R [eu][^aeiouv][uvi]
-SFX r 0 re/R [eu][^aeiouv][^aeiouv][uvi]
+SFX r 0 ra/R a is:RA
+SFX r 0 re/R e is:RA
+SFX r 0 ro/R o is:RA
+SFX r 0 ra/R [aovi][^aeiouv][uvi] is:RA
+SFX r 0 ra/R [aovi][^aeiouv][^aeiouv][uvi] is:RA
+SFX r 0 re/R [eu][^aeiouv][uvi] is:RA
+SFX r 0 re/R [eu][^aeiouv][^aeiouv][uvi] is:RA
 
 # Verbal -ndara|ndere|ndoro suffixes
 SFX n Y 7
-SFX n 0 ndara/R a
-SFX n 0 ndere/R e
-SFX n 0 ndoro/R o
-SFX n 0 ndara/R [aovi][^aeiouv][uvi]
-SFX n 0 ndara/R [aovi][^aeiouv][^aeiouv][uvi]
-SFX n 0 ndere/R [eu][^aeiouv][uvi]
-SFX n 0 ndere/R [eu][^aeiouv][^aeiouv][uvi]
+SFX n 0 ndara/R a is:RA
+SFX n 0 ndere/R e is:RA
+SFX n 0 ndoro/R o is:RA
+SFX n 0 ndara/R [aovi][^aeiouv][uvi] is:RA
+SFX n 0 ndara/R [aovi][^aeiouv][^aeiouv][uvi] is:RA
+SFX n 0 ndere/R [eu][^aeiouv][uvi] is:RA
+SFX n 0 ndere/R [eu][^aeiouv][^aeiouv][uvi] is:RA
 
 # Suffixes after (h|k|ngk)[aeo] form
 SFX H Y 14
@@ -115,10 +114,10 @@ SFX H 0 bihe .
 SFX H 0 bikai .
 SFX H 0 de .
 SFX H 0 i .
-SFX H 0 kv .
-SFX H 0 kvn .
-SFX H 0 kvni .
-SFX H 0 kvbi .	
+SFX H 0 kv . +NEG
+SFX H 0 kvn . +NEG
+SFX H 0 kvni . +NEG
+SFX H 0 kvbi .	 +NEG
 SFX H 0 le .
 SFX H 0 lengge .
 SFX H 0 ngge .
@@ -126,30 +125,30 @@ SFX H 0 o .
 
 # Verb -h[aeo] form
 SFX h Y 7
-SFX h 0 ha/H a
-SFX h 0 he/H e
-SFX h 0 ho/H o
-SFX h 0 ha/H [aovi][^aeiouv][uvi]
-SFX h 0 ha/H [aovi][^aeiouv][^aeiouv][uvi]
-SFX h 0 he/H [eu][^aeiouv][uvi]
-SFX h 0 he/H [eu][^aeiouv][^aeiouv][uvi]
+SFX h 0 ha/H a is:HA
+SFX h 0 he/H e is:HA
+SFX h 0 ho/H o is:HA
+SFX h 0 ha/H [aovi][^aeiouv][uvi] is:HA
+SFX h 0 ha/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
+SFX h 0 he/H [eu][^aeiouv][uvi] is:HA
+SFX h 0 he/H [eu][^aeiouv][^aeiouv][uvi] is:HA
 
 # Verb -k[aeo] form
-SFX k Y 7
-SFX k 0 ka/H a
-SFX k 0 ke/H e
-SFX k 0 ko/H o
-SFX k 0 ka/H [aovi][^aeiouv][uvi]
-SFX k 0 ka/H [aovi][^aeiouv][^aeiouv][uvi]
-SFX k 0 ke/H [eu][^aeiouv][uvi]
-SFX k 0 ke/H [eu][^aeiouv][^aeiouv][uvi]
+SFX k Y 7 
+SFX k 0 ka/H a is:HA
+SFX k 0 ke/H e is:HA
+SFX k 0 ko/H o is:HA
+SFX k 0 ka/H [aovi][^aeiouv][uvi] is:HA
+SFX k 0 ka/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
+SFX k 0 ke/H [eu][^aeiouv][uvi] is:HA
+SFX k 0 ke/H [eu][^aeiouv][^aeiouv][uvi] is:HA
 
 # Verb -ngk[aeo] form
 SFX g Y 7
-SFX g 0 ngka/H a
-SFX g 0 ngke/H e
-SFX g 0 ngko/H o
-SFX g 0 ngka/H [aovi][^aeiouv][uvi]
-SFX g 0 ngka/H [aovi][^aeiouv][^aeiouv][uvi]
-SFX g 0 ngke/H [eu][^aeiouv][uvi]
-SFX g 0 ngke/H [eu][^aeiouv][^aeiouv][uvi]
+SFX g 0 ngka/H a is:HA
+SFX g 0 ngke/H e is:HA
+SFX g 0 ngko/H o is:HA
+SFX g 0 ngka/H [aovi][^aeiouv][uvi] is:HA
+SFX g 0 ngka/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
+SFX g 0 ngke/H [eu][^aeiouv][uvi] is:HA
+SFX g 0 ngke/H [eu][^aeiouv][^aeiouv][uvi] is:HA
