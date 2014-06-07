@@ -1,0 +1,125 @@
+SET	UTF-8
+
+# Noun Case
+SFX N Y 6
+SFX N 0 0 .
+SFX N 0 ni ng
+SFX N 0 i .
+SFX N 0 be .
+SFX N 0 de .
+SFX N 0 ci .
+
+# Verb
+SFX V Y 39
+SFX V 0 0 .
+SFX V 0 mbi .
+SFX V 0 mbikai .
+SFX V 0 mbihe .
+SFX V 0 mbihebi .
+SFX V 0 mbime .
+SFX V 0 mbifi .
+SFX V 0 mbini .
+SFX V 0 mbumbi .
+SFX V 0 mbubumbi .
+SFX V 0 me .
+SFX V 0 meo .
+SFX V 0 ra [av]
+SFX V 0 re [eui]
+SFX V 0 ro o
+SFX V 0 rade [av]
+SFX V 0 rede [eui]
+SFX V 0 rangge [av]
+SFX V 0 rengge [eui]
+SFX V 0 rongge o
+SFX V 0 rale [av]
+SFX V 0 rele [eui]
+SFX V 0 ralengge [av]
+SFX V 0 relengge [eui]
+SFX V 0 ralame [avi]
+SFX V 0 relame [eu]
+SFX V 0 lame [avi]
+SFX V 0 leme [eu]
+SFX V 0 ci .
+SFX V 0 cibe .
+SFX V 0 cina .
+SFX V 0 ki .
+SFX V 0 kini .
+SFX V 0 nggala [avi]
+SFX V 0 nggele [eu]
+SFX V 0 nggolo o
+SFX V 0 rakv .
+SFX V 0 rakvngge [avi]
+SFX V 0 rekvngge [eu]
+
+# Verb -fi form
+SFX f Y 1
+SFX f 0 fi .
+
+# Verb -pi form
+SFX p Y 1
+SFX p 0 pi .
+
+# Verb -h[aeo] form
+SFX h Y 34
+SFX h 0 ha [auvi]
+SFX h 0 he [eui]        
+SFX h 0 ho o
+SFX h 0 hade [auvi]
+SFX h 0 hede [eu]
+SFX h 0 hode o
+SFX h 0 habi [auvi]
+SFX h 0 hebi [eu]
+SFX h 0 hobi o
+SFX h 0 habikai [auvi]
+SFX h 0 hebikai [eu]
+SFX h 0 hobikai o
+SFX h 0 habihe [auvi]
+SFX h 0 hebihe [eu]
+SFX h 0 hobihe o
+SFX h 0 habici [auvi]
+SFX h 0 hebici [eu]
+SFX h 0 hobici o
+SFX h 0 hangge [auvi]
+SFX h 0 hengge [eu]
+SFX h 0 hongge [eu]
+SFX h 0 hale   [auvi]
+SFX h 0 hele   [eu]
+SFX h 0 halengge   [auvi]
+SFX h 0 helengge   [eu]
+SFX h 0 hakv [auvi]
+SFX h 0 hekv [eu]
+SFX h 0 hokv o
+SFX h 0 hakvbi [auvi]
+SFX h 0 hekvbi [eu]
+SFX h 0 hokvbi o
+SFX h 0 hai [auvi]
+SFX h 0 hei [eu]
+SFX h 0 hoi o
+
+# Verb -k[aeo] form
+SFX k Y 25
+SFX k 0 ka [auvi]
+SFX k 0 ke [eu]        
+SFX k 0 ko o
+SFX k 0 kabi [auvi]
+SFX k 0 kebi [eu]
+SFX k 0 kobi o
+SFX k 0 kabihe [auvi]
+SFX k 0 kebihe [eu]
+SFX k 0 kobihe o
+SFX k 0 kabici [auvi]
+SFX k 0 kebici [eu]
+SFX k 0 kobici o
+SFX k 0 kangge [auvi]
+SFX k 0 kengge [eu]
+SFX k 0 kongge [eu]
+SFX k 0 kale   [auvi]
+SFX k 0 kele   [eu]
+SFX k 0 kalengge   [auvi]
+SFX k 0 kelengge   [eu]
+SFX k 0 kakv [auvi]
+SFX k 0 kekv [eu]
+SFX k 0 kokv o
+SFX k 0 kai [auvi]
+SFX k 0 kei [eu]
+SFX k 0 koi o
