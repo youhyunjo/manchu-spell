@@ -50,3 +50,30 @@ Manchu Translitteration
 | sy  | 1830 185F |                 |
 | cy  | 1871 1873 |                 |
 | jy  | 1877 1873 |                 |
+
+
+Manchu Dictionaries and Texts
+--------------------------------
+* 御製飜譯詩經(1768序) 文淵閣四庫全書. han i araha ubaliyambuha irgebun i nomun.
+* 大淸全書(1683) 天理大圖書館. daicing gurun i yooni bithe.
+*  擇翻聊齋志異. sonjofi ubaliyambuha liyoo jai jy i bithe.
+*  漢淸文鑑.
+*  滿漢同文全書. manju nikan xu adali yooni bithe.
+*  同文彙集.
+*  同文類解. 
+* 滿漢同文類集. 內閣文庫.
+*  滿漢類書(1700) 東洋文庫.
+* 淸文彙書(1724) 首都圖書館.
+* 新刻淸書全集(1699) 大阪外大圖書館.
+* 滿漢西廂記(1710) SNU Library. manju nikan si siyang gi bithe.
+* 金甁梅(1708序)  中國國家圖書館. gin ping mei bithe
+* 三譯總解(1774) SNU Library. 
+* 三國演義(1722~1735) 北京故宮博物院圖書館. ilan gurun i bithe (san guo zhi)
+* 小兒論(1777) SNU Library.
+* 御製淸文鑑(1708序). SNU Library. han i araha manju gisun i buleku bithe. (yu zhi qing wen jian)
+* 御製增訂淸文鑑(1771序) 遼寧省圖書館. han i araha nonggime toktobuha manju gisun i buleku bithe.  (yu zhi zeng ding qing wen jian)
+* 淸語老乞大(1765序) 日本驅澤大學.
+* 八歲兒(1777). Kyujanggak.
+
+
+
