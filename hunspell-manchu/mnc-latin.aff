@@ -1,154 +1,148 @@
 SET	UTF-8
 
 # Nominal suffixes
-SFX N Y 6
-SFX N 0 ni ng is:I
-SFX N 0 i . is:I
-SFX N 0 be . is:BE
-SFX N 0 de . is:DE
-SFX N 0 ci . is:CI
-SFX N 0 ingge . is:INGGE
+SFX N Y 5
+SFX N 0 i . is:i
+SFX N 0 be . is:be
+SFX N 0 de . is:de
+SFX N 0 ci . is:ci
+SFX N 0 ingge . is:ingge
 
 # passive-causative -bu
 SFX B Y 1
-SFX B 0 bu/V . ds:BU
+SFX B 0 bu/V . ds:bu
 
 # Verbal -me|ci|ki suffixes
-SFX V Y 24
-SFX V 0 0 .
-SFX V 0 mbi .
-SFX V 0 mbidere
-SFX V 0 mbihe .
-SFX V 0 mbihebi .
-SFX V 0 mbihede .
-SFX V 0 mbihekai .
-SFX V 0 mbihengge .
-SFX V 0 mbiheni .
-SFX V 0 mbiheo .
-SFX V 0 mbikai .
-SFX V 0 mbime .
-SFX V 0 mbina .
-SFX V 0 mbini .
-SFX V 0 mbinikai .
-SFX V 0 mbinio .
-SFX V 0 mbio .
-SFX V 0 ci .
-SFX V 0 cibe .
-SFX V 0 cina .
-SFX V 0 ki .
-SFX V 0 kini .
-SFX V 0 me .
-SFX V 0 meo .
+SFX V Y 23
+SFX V 0 mbi . is:mbi
+SFX V 0 mbidere is:mbidere
+SFX V 0 mbihe . is:mbihe
+SFX V 0 mbihebi . is:mbihebi
+SFX V 0 mbihede . is:mbihede
+SFX V 0 mbihekai . is:mbihekai
+SFX V 0 mbihengge . is:mbihengge
+SFX V 0 mbiheni . is:mbiheni
+SFX V 0 mbiheo . is:mbiheo
+SFX V 0 mbikai . is:mbikai
+SFX V 0 mbime . is:mbime
+SFX V 0 mbina . is:mbina
+SFX V 0 mbini . is:mbini
+SFX V 0 mbinikai . is:mbinikai
+SFX V 0 mbinio . is:mbinio
+SFX V 0 mbio . is:mbio
+SFX V 0 ci . is:ci
+SFX V 0 cibe . is:cibe
+SFX V 0 cina . is:cina
+SFX V 0 ki . is:ki
+SFX V 0 kini . is:kini
+SFX V 0 me . is:me
+SFX V 0 meo . is:meo
 
 # Verbal -nggala|nggele|nggolo form
 SFX l Y 3
-SFX l 0 nggala a
-SFX l 0 nggele e
-SFX l 0 nggolo o
+SFX l 0 nggala a is:nggala
+SFX l 0 nggele e is:nggele
+SFX l 0 nggolo o is:nggolo
 
 
 # Verbal -fi form
 SFX f Y 1
-SFX f 0 fi . is:FI
+SFX f 0 fi . is:fi
 
 # Verbal -pi form
 SFX p Y 1
-SFX p 0 pi . is:FI
+SFX p 0 pi . is:pi
 
 # Verbal -mpi form
 SFX m Y 1
-SFX m 0 mpi . is:FI
+SFX m 0 mpi . is:mpi
 
 
 # Suffixes after r[aeo]|ndara|ndere|ndoro form
 SFX R Y 23
 SFX R 0 de . 
-SFX R 0 lame a
-SFX R 0 leme e
-SFX R 0 lome o
-SFX R 0 le .
-SFX R 0 ngge .
-SFX R 0 lengge .
-SFX R 0 o .
-SFX R a akv a +NEG
-SFX R e akv e +NEG
-SFX R o akv o +NEG
-SFX R a akvn a +NEG
-SFX R e akvn e +NEG
-SFX R o akvn o +NEG
-SFX R a akvni a +NEG
-SFX R e akvni e +NEG
-SFX R o akvni o +NEG
-SFX R a akvci a +NEG
-SFX R e akvci e +NEG
-SFX R o akvci o +NEG
-SFX R a akvngge a +NEG
-SFX R e akvngge e +NEG
-SFX R o akvngge o +NEG
+SFX R 0 lame a is:lame
+SFX R 0 leme e is:leme
+SFX R 0 lome o is:lome
+SFX R 0 le . is:le
+SFX R 0 ngge . is:ngge
+SFX R 0 lengge . is:lengge
+SFX R 0 o . is:o
+SFX R a akv a is:akv +NEG 
+SFX R e akv e is:akv +NEG
+SFX R o akv o is:akv +NEG
+SFX R a akvn a is:akvn +NEG
+SFX R e akvn e is:akvn +NEG
+SFX R o akvn o is:akvn +NEG
+SFX R a akvni a is:akvni +NEG
+SFX R e akvni e is:akvni +NEG
+SFX R o akvni o is:akvni +NEG
+SFX R a akvci a is:akvci +NEG
+SFX R e akvci e is:akvci +NEG
+SFX R o akvci o is:akvci +NEG
+SFX R a akvngge a is:akvngge +NEG
+SFX R e akvngge e is:akvngge +NEG
+SFX R o akvngge o is:akvngge +NEG
 
 # Verbal -ra|re|ro suffixes
-SFX r Y 7
-SFX r 0 ra/R a is:RA
-SFX r 0 re/R e is:RA
-SFX r 0 ro/R o is:RA
-SFX r 0 ra/R [aovi][^aeiouv][uvi] is:RA
-SFX r 0 ra/R [aovi][^aeiouv][^aeiouv][uvi] is:RA
-SFX r 0 re/R [eu][^aeiouv][uvi] is:RA
-SFX r 0 re/R [eu][^aeiouv][^aeiouv][uvi] is:RA
+SFX r Y 3
+SFX r 0 ra/R [av] is:ra
+SFX r 0 re/R [eui] is:re
+SFX r 0 ro/R o is:ro
 
 # Verbal -ndara|ndere|ndoro suffixes
-SFX n Y 7
-SFX n 0 ndara/R a is:RA
-SFX n 0 ndere/R e is:RA
-SFX n 0 ndoro/R o is:RA
-SFX n 0 ndara/R [aovi][^aeiouv][uvi] is:RA
-SFX n 0 ndara/R [aovi][^aeiouv][^aeiouv][uvi] is:RA
-SFX n 0 ndere/R [eu][^aeiouv][uvi] is:RA
-SFX n 0 ndere/R [eu][^aeiouv][^aeiouv][uvi] is:RA
+SFX n Y 3
+SFX n 0 ndara/R [av] is:ndara
+SFX n 0 ndere/R [eui] is:ndere
+SFX n 0 ndoro/R o is:ndoro
 
 # Suffixes after (h|k|ngk)[aeo] form
 SFX H Y 14
-SFX H 0 bi .
-SFX H 0 bici .
-SFX H 0 bihe .
-SFX H 0 bikai .
-SFX H 0 de .
-SFX H 0 i .
-SFX H 0 kv . +NEG
-SFX H 0 kvn . +NEG
-SFX H 0 kvni . +NEG
-SFX H 0 kvbi .	 +NEG
-SFX H 0 le .
-SFX H 0 lengge .
-SFX H 0 ngge .
-SFX H 0 o .
+SFX H 0 bi . is:bi
+SFX H 0 bici . is:bici
+SFX H 0 bihe . is:bihe
+SFX H 0 bikai . is:bikai
+SFX H 0 de . is:de
+SFX H 0 i . is:i
+SFX H 0 kv . is:akv +NEG
+SFX H 0 kvn . is:akvn +NEG
+SFX H 0 kvni . is:akvni +NEG
+SFX H 0 kvbi .	 is:akvbi +NEG
+SFX H 0 le . is:le
+SFX H 0 lengge . is:lengge
+SFX H 0 ngge . is:ngge
+SFX H 0 o . is:o
 
 # Verb -h[aeo] form
-SFX h Y 7
-SFX h 0 ha/H a is:HA
-SFX h 0 he/H e is:HA
-SFX h 0 ho/H o is:HA
-SFX h 0 ha/H [aovi][^aeiouv][uvi] is:HA
-SFX h 0 ha/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
-SFX h 0 he/H [eu][^aeiouv][uvi] is:HA
-SFX h 0 he/H [eu][^aeiouv][^aeiouv][uvi] is:HA
+SFX h Y 11
+SFX h 0 ha/H a is:ha
+SFX h 0 he/H e is:he
+SFX h 0 ho/H o is:ho
+SFX h 0 ha/H ai is:ha
+SFX h 0 ha/H ei is:he
+SFX h 0 ha/H oi is:ho
+SFX h 0 he/H nggi is:he
+SFX h 0 ha/H [aovi][^aeiouv][uvi] is:ha
+SFX h 0 ha/H [aovi][^aeiouv][^aeiouv][uvi] is:ha
+SFX h 0 he/H [eu][^aeiouv][uvi] is:he
+SFX h 0 he/H [eu][^aeiouv][^aeiouv][uvi] is:he
 
 # Verb -k[aeo] form
 SFX k Y 7 
-SFX k 0 ka/H a is:HA
-SFX k 0 ke/H e is:HA
-SFX k 0 ko/H o is:HA
-SFX k 0 ka/H [aovi][^aeiouv][uvi] is:HA
-SFX k 0 ka/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
-SFX k 0 ke/H [eu][^aeiouv][uvi] is:HA
-SFX k 0 ke/H [eu][^aeiouv][^aeiouv][uvi] is:HA
+SFX k 0 ka/H a is:ka
+SFX k 0 ke/H e is:ke
+SFX k 0 ko/H o is:ko
+SFX k 0 ka/H [aovi][^aeiouv][uvi] is:ka
+SFX k 0 ka/H [aovi][^aeiouv][^aeiouv][uvi] is:ka
+SFX k 0 ke/H [eu][^aeiouv][uvi] is:ke
+SFX k 0 ke/H [eu][^aeiouv][^aeiouv][uvi] is:ke
 
 # Verb -ngk[aeo] form
 SFX g Y 7
-SFX g 0 ngka/H a is:HA
-SFX g 0 ngke/H e is:HA
-SFX g 0 ngko/H o is:HA
-SFX g 0 ngka/H [aovi][^aeiouv][uvi] is:HA
-SFX g 0 ngka/H [aovi][^aeiouv][^aeiouv][uvi] is:HA
-SFX g 0 ngke/H [eu][^aeiouv][uvi] is:HA
-SFX g 0 ngke/H [eu][^aeiouv][^aeiouv][uvi] is:HA
+SFX g 0 ngka/H a is:ngka
+SFX g 0 ngke/H e is:ngke
+SFX g 0 ngko/H o is:ngko
+SFX g 0 ngka/H [aovi][^aeiouv][uvi] is:ngka
+SFX g 0 ngka/H [aovi][^aeiouv][^aeiouv][uvi] is:ngka
+SFX g 0 ngke/H [eu][^aeiouv][uvi] is:ngke
+SFX g 0 ngke/H [eu][^aeiouv][^aeiouv][uvi] is:ngke
