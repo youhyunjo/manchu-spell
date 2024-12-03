@@ -2,7 +2,7 @@ Manchu Speller
 ================================
 
 You, Hyun-Jo. 2014. A Manchu speller: With a practical introduction to the natural language
-processing of minority languages. Altai Hakpo 24. 39--67. The Altaic Society of Korea. [[pdf](http://goo.gl/CPgXem)]
+processing of minority languages. Altai Hakpo 24. 39--67. The Altaic Society of Korea. DOI: [[10.15816/ask.2014..24.003](http://doi.org/10.15816/ask.2014..24.003)]
 
 Manchu Dictionaries and Texts
 --------------------------------
