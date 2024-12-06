@@ -39,7 +39,7 @@ Manchu Translitteration
 ### elementary characters
 
 | chr | unicode | translit |
-|----|---------|
+|----|----------|----------|
 | ᠠ | U+1820 | a  |
 | ᡝ | U+185D | e  |
 | ᡳ | U+1873 | i  |
