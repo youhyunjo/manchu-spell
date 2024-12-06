@@ -68,17 +68,17 @@ Manchu Translitteration
 
 ### special characters
 
-| tr  | Unicode   | Syllables       |
-|-----|-----------|-----------------|
-| k'  | 183A      | k'a k'o         |
-| g'  | 186C      | g'a g'o         |
-| h'  | 186D      | h'a h'o         |
-| ts  | 186E      | tsa tse tso tsu |
-| tsy | 186E 185F |                 |
-| dz  | 186F      | dza dze dzo dzu |
-| dzy | 186F ???? |                 |
-| z   | 1870      | za ze zo zu     |
-| zy  | 1870 1873 |                 |
-| sy  | 1830 185F |                 |
-| cy  | 1871 1873 |                 |
-| jy  | 1877 1873 |                 |
+| chr  | unicode   | tr | syllables       |
+|-----|-----------|-----|-----------------|
+| ᠺ | U+183A | k' | k'a k'o |
+| ᡬ | U+186C | g' | g'a g'o |
+| ᡭ | U+186D | h' | h'a h'o |
+| ᡮ | U+186E | ts | tsa tse tso tsu |
+| ᡮᡟ | ᡮ (U+186F) ᡟ (U+185F) | tsy |
+| ᡯ | U+186F | dz | dza dze dzo dzu |
+| ᡯ? | U+186F ? | dzy |
+| ᡰ | U+1870 | z | za ze zo zu |
+| ᡰᡳ | ᡰ (U+1870) ᡳ (U+1873) | zy  |
+| ᠰᡟ | ᠰ (U+1830) ᡟ (U+185F) | sy  |
+| ᡱᡳ | ᡱ (U+1871) ᡳ (U+1873) | cy  |
+| ᡷᡳ | ᡷ (U+1877) ᡳ (U+1873) | jy  |
